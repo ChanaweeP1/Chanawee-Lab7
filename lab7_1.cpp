@@ -1,11 +1,18 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
-    int a  =  20, b = 30;
-    float c = 4.0, output;
+    int i = 0;
 
-    output = a-b/c;
-    cout << "output: " << output << "\n";
+while(i < 58){
+
+    char x = 'A'+i;
+
+    cout << x;
+
+    i++;
+
+}
     return 0;
 }
